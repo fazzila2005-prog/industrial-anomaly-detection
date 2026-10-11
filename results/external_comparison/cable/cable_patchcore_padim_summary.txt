@@ -1,0 +1,20 @@
+PATCHCORE vs PADIM — EXTERNAL CABLE
+============================================================
+
+Normal images: 10
+Anomaly images: 10
+Total images: 20
+
+PATCHCORE
+AUROC: 0.3900
+Average Precision: 0.4372
+
+PADIM
+AUROC: 0.7400
+Average Precision: 0.6782
+
+EVALUATION PROTOCOL
+PatchCore and PaDiM were evaluated on the exact same external test images.
+External anomaly images were NOT used for training.
+Adaptation images were NOT included in the external test.
+Metrics were calculated from raw anomaly scores using AUROC and Average Precision.

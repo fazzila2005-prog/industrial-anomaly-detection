@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL ZIPPER EVALUATION
+========================================
+
+Category: zipper
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.8515
+Maximum score:     0.9913
+Mean score:        0.9081
+Median score:      0.8965
+95th percentile:   0.9891
+99th percentile:   0.9909
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.9909
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           0.7000
+Precision:          1.0000
+Recall:             0.4000
+F1 Score:           0.5714
+False-positive rate:0.0000
+AUROC:              0.8000
+Average Precision:  0.8585
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL      10       0
+Actual ANOMALY      6       4
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the zipper category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

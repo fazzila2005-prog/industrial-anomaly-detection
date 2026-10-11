@@ -1,0 +1,21 @@
+Category,Image_Name,Image_Path,Actual_Label,Anomaly_Score,Locked_Threshold,Predicted_Label,Correct
+tile,images (13).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (13).jpg,NORMAL,0.09384530037641525,0.5483785396814347,NORMAL,True
+tile,images (14).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (14).jpg,NORMAL,0.24202731251716614,0.5483785396814347,NORMAL,True
+tile,images (15).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (15).jpg,NORMAL,0.44731250405311584,0.5483785396814347,NORMAL,True
+tile,images (16).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (16).jpg,NORMAL,0.3462841808795929,0.5483785396814347,NORMAL,True
+tile,images (17).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (17).jpg,NORMAL,0.2718653678894043,0.5483785396814347,NORMAL,True
+tile,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (2).jpg,NORMAL,0.09793304651975632,0.5483785396814347,NORMAL,True
+tile,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (3).jpg,NORMAL,0.3069589138031006,0.5483785396814347,NORMAL,True
+tile,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (4).jpg,NORMAL,0.07794235646724701,0.5483785396814347,NORMAL,True
+tile,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (5).jpg,NORMAL,0.23099064826965332,0.5483785396814347,NORMAL,True
+tile,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_normal\images (6).jpg,NORMAL,0.11717382818460464,0.5483785396814347,NORMAL,True
+tile,images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\images (1).jpg,ANOMALY,0.993812084197998,0.5483785396814347,ANOMALY,True
+tile,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\images (2).jpg,ANOMALY,0.954287588596344,0.5483785396814347,ANOMALY,True
+tile,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\images (3).jpg,ANOMALY,0.9926546812057495,0.5483785396814347,ANOMALY,True
+tile,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\images (4).jpg,ANOMALY,0.9601781368255615,0.5483785396814347,ANOMALY,True
+tile,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\images (5).jpg,ANOMALY,0.9835604429244995,0.5483785396814347,ANOMALY,True
+tile,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\images (6).jpg,ANOMALY,0.9747360944747925,0.5483785396814347,ANOMALY,True
+tile,images (7).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\images (7).jpg,ANOMALY,0.9723983407020569,0.5483785396814347,ANOMALY,True
+tile,images.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\images.jpg,ANOMALY,0.954286515712738,0.5483785396814347,ANOMALY,True
+tile,istockphoto-1203498173-612x612.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\istockphoto-1203498173-612x612.jpg,ANOMALY,0.9971733093261719,0.5483785396814347,ANOMALY,True
+tile,old-stone-tiles-floor-castle-cracked-terracotta-tiles-idea-background-screensaver-destruction-use-natural-materials_166373-3798.avif,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\tile\test_anomaly\old-stone-tiles-floor-castle-cracked-terracotta-tiles-idea-background-screensaver-destruction-use-natural-materials_166373-3798.avif,ANOMALY,0.9667923450469971,0.5483785396814347,ANOMALY,True

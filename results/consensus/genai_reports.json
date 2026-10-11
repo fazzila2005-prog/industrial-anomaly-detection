@@ -1,0 +1,87 @@
+[
+    {
+        "image": {
+            "path": "bottle/broken_large/000.png",
+            "category": "bottle",
+            "defect_type": "broken_large"
+        },
+        "models": {
+            "PatchCore": {
+                "anomaly_score": 0.9374,
+                "prediction": "ANOMALY"
+            },
+            "PaDiM": {
+                "anomaly_score": 0.7119,
+                "prediction": "ANOMALY"
+            }
+        },
+        "evidence": {
+            "score_agreement": 0.5958,
+            "prediction_agreement": 1,
+            "heatmap_overlap_iou": 0.3425
+        },
+        "consensus": {
+            "score": 0.6739,
+            "level": "MEDIUM",
+            "uncertainty": 0.3261
+        },
+        "genai_explanation": "### 1. Inspection Result\nEvidence-based visual assessment: **ANOMALY**\n\n### 2. Model Agreement\nBoth PatchCore and PaDiM predict an anomaly; therefore, the models agree on the categorical outcome (prediction agreement of 1).\n\n### 3. Evidence Summary\n* **PatchCore:** Anomaly score of 0.9374; Prediction: ANOMALY\n* **PaDiM:** Anomaly score of 0.7119; Prediction: ANOMALY\n* **Score Agreement:** 0.5958\n* **Heatmap Overlap IoU:** 0.3425, indicating the degree of overlap between the two models' anomaly localization maps.\n\n### 4. Consensus Assessment\nThe consensus score is 0.6739, resulting in a **MEDIUM** consensus level.\n\n### 5. Evidence Consistency\nThe uncertainty score is 0.3261. This value functions as an evidence-consistency measure reflecting the variation between the model outputs, rather than a probability of being incorrect.\n\n### 6. Overall Explanation\nThis evidence-based visual assessment indicates an anomalous condition for the inspected bottle. Both PatchCore and PaDiM agree in their classification of the item as an anomaly. However, the score agreement (0.5958) and the localization map overlap (IoU of 0.3425) indicate differences in the magnitude and spatial distribution of the detected anomaly signals between the two models. This yields a medium consensus score (0.6739) with an evidence-consistency uncertainty measure of 0.3261."
+    },
+    {
+        "image": {
+            "path": "bottle/broken_large/004.png",
+            "category": "bottle",
+            "defect_type": "broken_large"
+        },
+        "models": {
+            "PatchCore": {
+                "anomaly_score": 1.0,
+                "prediction": "ANOMALY"
+            },
+            "PaDiM": {
+                "anomaly_score": 0.7587,
+                "prediction": "ANOMALY"
+            }
+        },
+        "evidence": {
+            "score_agreement": 0.5928,
+            "prediction_agreement": 1,
+            "heatmap_overlap_iou": 0.0501
+        },
+        "consensus": {
+            "score": 0.5997,
+            "level": "LOW",
+            "uncertainty": 0.4003
+        },
+        "genai_explanation": null,
+        "error": "Error code: 503 - {'error': {'message': 'gemini-3.8-flash is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.', 'code': 'service_unavailable'}}"
+    },
+    {
+        "image": {
+            "path": "bottle/broken_large/008.png",
+            "category": "bottle",
+            "defect_type": "broken_large"
+        },
+        "models": {
+            "PatchCore": {
+                "anomaly_score": 0.9693,
+                "prediction": "ANOMALY"
+            },
+            "PaDiM": {
+                "anomaly_score": 0.7262,
+                "prediction": "ANOMALY"
+            }
+        },
+        "evidence": {
+            "score_agreement": 0.5783,
+            "prediction_agreement": 1,
+            "heatmap_overlap_iou": 0.1409
+        },
+        "consensus": {
+            "score": 0.6165,
+            "level": "MEDIUM",
+            "uncertainty": 0.3835
+        },
+        "genai_explanation": "### 1. Inspection Result\n**Evidence-based visual assessment:** ANOMALY  \n**Target Category:** bottle\n\n### 2. Model Agreement\nThe models agree on the inspection outcome. Both PatchCore and PaDiM generated a prediction of **ANOMALY** (prediction agreement: 1).\n\n### 3. Evidence Summary\n* **PatchCore:** Anomaly score of 0.9693; Prediction: ANOMALY.\n* **PaDiM:** Anomaly score of 0.7262; Prediction: ANOMALY.\n* **Score Agreement:** 0.5783.\n* **Heatmap Overlap IoU:** 0.1409, indicating a low degree of overlap between the two models' anomaly localization maps.\n\n### 4. Consensus Assessment\n* **Consensus Score:** 0.6165\n* **Consensus Level:** MEDIUM\n\n### 5. Evidence Consistency\n* **Uncertainty Score:** 0.3835  \nThis value represents an evidence-consistency measure rather than a probability of being wrong. It reflects the variation between the two models' anomaly scores and the low spatial overlap of their localization heatmaps.\n\n### 6. Overall Explanation\nThis evidence-based visual assessment concludes that the inspected bottle contains an anomaly, supported by full categorical agreement between PatchCore and PaDiM. While both models classify the image as anomalous, their quantitative evidence exhibits moderate score agreement (0.5783) and limited spatial alignment in their anomaly localization maps (IoU of 0.1409). Consequently, the overall consensus is evaluated at a MEDIUM level with an evidence-consistency uncertainty measure of 0.3835."
+    }
+]

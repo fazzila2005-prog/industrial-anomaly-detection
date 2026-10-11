@@ -1,0 +1,21 @@
+Category,Image_Name,Image_Path,Actual_Label,Anomaly_Score,Locked_Threshold,Predicted_Label,Correct
+pill,ampyra-10-mg-a10-53179.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\ampyra-10-mg-a10-53179.jpg,NORMAL,0.9125218391418457,0.9573895877599716,NORMAL,True
+pill,clopidogrel-bisulfate-75-mg-base-apo-cl-75-53296.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\clopidogrel-bisulfate-75-mg-base-apo-cl-75-53296.jpg,NORMAL,0.8523650169372559,0.9573895877599716,NORMAL,True
+pill,depositphotos_20873661-stock-photo-red-tablet.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\depositphotos_20873661-stock-photo-red-tablet.jpg,NORMAL,0.5562822818756104,0.9573895877599716,NORMAL,True
+pill,folic-acid-1-mg-n8-78108.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\folic-acid-1-mg-n8-78108.jpg,NORMAL,0.9357389807701111,0.9573895877599716,NORMAL,True
+pill,images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\images (1).jpg,NORMAL,0.873948335647583,0.9573895877599716,NORMAL,True
+pill,images (10).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\images (10).jpg,NORMAL,0.2378210574388504,0.9573895877599716,NORMAL,True
+pill,images (11).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\images (11).jpg,NORMAL,0.302506685256958,0.9573895877599716,NORMAL,True
+pill,images (12).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\images (12).jpg,NORMAL,0.48379769921302795,0.9573895877599716,NORMAL,True
+pill,images (8).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\images (8).jpg,NORMAL,0.7773637175559998,0.9573895877599716,NORMAL,True
+pill,images (9).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_normal\images (9).jpg,NORMAL,0.4607124626636505,0.9573895877599716,NORMAL,True
+pill,expired-tablet-on-blue-background-2F8P0BG.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\expired-tablet-on-blue-background-2F8P0BG.jpg,ANOMALY,0.9386701583862305,0.9573895877599716,NORMAL,False
+pill,images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images (1).jpg,ANOMALY,0.9656434059143066,0.9573895877599716,ANOMALY,True
+pill,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images (2).jpg,ANOMALY,0.7113010287284851,0.9573895877599716,NORMAL,False
+pill,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images (3).jpg,ANOMALY,0.9052518606185913,0.9573895877599716,NORMAL,False
+pill,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images (4).jpg,ANOMALY,0.8196009993553162,0.9573895877599716,NORMAL,False
+pill,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images (5).jpg,ANOMALY,0.8041061758995056,0.9573895877599716,NORMAL,False
+pill,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images (6).jpg,ANOMALY,0.9784461259841919,0.9573895877599716,ANOMALY,True
+pill,images (7).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images (7).jpg,ANOMALY,0.8859990239143372,0.9573895877599716,NORMAL,False
+pill,images (8).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images (8).jpg,ANOMALY,0.9656258225440979,0.9573895877599716,ANOMALY,True
+pill,images.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\pill\test_anomaly\images.jpg,ANOMALY,0.8536690473556519,0.9573895877599716,NORMAL,False

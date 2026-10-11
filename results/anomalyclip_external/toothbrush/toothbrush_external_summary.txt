@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL TOOTHBRUSH EVALUATION
+========================================
+
+Category: toothbrush
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.4145
+Maximum score:     0.6982
+Mean score:        0.5630
+Median score:      0.5681
+95th percentile:   0.6887
+99th percentile:   0.6963
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.6963
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           0.5500
+Precision:          0.5556
+Recall:             0.5000
+F1 Score:           0.5263
+False-positive rate:0.4000
+AUROC:              0.6700
+Average Precision:  0.7569
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL       6       4
+Actual ANOMALY      5       5
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the toothbrush category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

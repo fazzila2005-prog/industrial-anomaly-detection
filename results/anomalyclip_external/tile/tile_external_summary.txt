@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL TILE EVALUATION
+========================================
+
+Category: tile
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.1357
+Maximum score:     0.5511
+Mean score:        0.3242
+Median score:      0.3476
+95th percentile:   0.5375
+99th percentile:   0.5484
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.5484
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           1.0000
+Precision:          1.0000
+Recall:             1.0000
+F1 Score:           1.0000
+False-positive rate:0.0000
+AUROC:              1.0000
+Average Precision:  1.0000
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL      10       0
+Actual ANOMALY      0      10
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the tile category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

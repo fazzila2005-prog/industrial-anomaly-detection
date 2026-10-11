@@ -1,0 +1,12 @@
+Image_Name,Image_Path,AnomalyCLIP_Anomaly_Score,Status
+broken bottle 2 external.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\broken bottle 2 external.jpg,0.9500783085823059,NORMAL_TEST_IMAGE
+broken bottle external.webp,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\broken bottle external.webp,0.9897436499595642,NORMAL_TEST_IMAGE
+images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\images (1).jpg,0.9778174757957458,NORMAL_TEST_IMAGE
+images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\images (2).jpg,0.9640646576881409,NORMAL_TEST_IMAGE
+images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\images (3).jpg,0.9701012372970581,NORMAL_TEST_IMAGE
+images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\images (4).jpg,0.9888328313827515,NORMAL_TEST_IMAGE
+images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\images (5).jpg,0.9652665853500366,NORMAL_TEST_IMAGE
+images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\images (6).jpg,0.9314504265785217,NORMAL_TEST_IMAGE
+images (7).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\images (7).jpg,0.9747141003608704,NORMAL_TEST_IMAGE
+images.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\images.jpg,0.9723709225654602,NORMAL_TEST_IMAGE
+xzdpzqmug5051.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\bottle\test_anomaly\xzdpzqmug5051.jpg,0.9603456854820251,NORMAL_TEST_IMAGE

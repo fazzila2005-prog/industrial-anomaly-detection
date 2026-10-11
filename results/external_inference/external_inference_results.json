@@ -1,0 +1,28 @@
+{
+    "category": "bottle",
+    "image_path": "data\\bottle\\test\\broken_large\\000.png",
+    "PatchCore": {
+        "raw_score": 0.9373831748962402,
+        "normalized_score": 1.0,
+        "prediction": "ANOMALY"
+    },
+    "PaDiM": {
+        "raw_score": 0.711909294128418,
+        "normalized_score": 1.0,
+        "prediction": "ANOMALY"
+    },
+    "evidence": {
+        "score_agreement": 1.0,
+        "prediction_agreement": 1.0,
+        "heatmap_overlap_iou": 0.3713141357641047
+    },
+    "consensus": {
+        "score": 0.8428285339410262,
+        "level": "HIGH",
+        "uncertainty": 0.1571714660589738
+    },
+    "heatmaps": {
+        "PatchCore": "results\\external_inference\\heatmaps\\patchcore_heatmap.png",
+        "PaDiM": "results\\external_inference\\heatmaps\\padim_heatmap.png"
+    }
+}

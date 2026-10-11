@@ -1,0 +1,18 @@
+Image_Name,Ground_Truth,AnomalyCLIP_Score,Locked_Threshold,Predicted_Label,Predicted_Status
+30ml-clear-flat-shoulder-glass-20260202155049057.webp,NORMAL,0.9428,0.8392,1,ANOMALY
+a-bottle-of-soda-free-photo.jpg,NORMAL,0.883,0.8392,1,ANOMALY
+empty-beer-bottle-23348207.webp,NORMAL,0.6069,0.8392,0,NORMAL
+good bottle 2.jpg,NORMAL,0.8437,0.8392,1,ANOMALY
+good bottle 3.jpg,NORMAL,0.7989,0.8392,0,NORMAL
+good bottle external image.jpg,NORMAL,0.9681,0.8392,1,ANOMALY
+broken bottle 2 external.jpg,ANOMALY,0.9501,0.8392,1,ANOMALY
+broken bottle external.webp,ANOMALY,0.9897,0.8392,1,ANOMALY
+images (1).jpg,ANOMALY,0.9778,0.8392,1,ANOMALY
+images (2).jpg,ANOMALY,0.9641,0.8392,1,ANOMALY
+images (3).jpg,ANOMALY,0.9701,0.8392,1,ANOMALY
+images (4).jpg,ANOMALY,0.9888,0.8392,1,ANOMALY
+images (5).jpg,ANOMALY,0.9653,0.8392,1,ANOMALY
+images (6).jpg,ANOMALY,0.9315,0.8392,1,ANOMALY
+images (7).jpg,ANOMALY,0.9747,0.8392,1,ANOMALY
+images.jpg,ANOMALY,0.9724,0.8392,1,ANOMALY
+xzdpzqmug5051.jpg,ANOMALY,0.9603,0.8392,1,ANOMALY

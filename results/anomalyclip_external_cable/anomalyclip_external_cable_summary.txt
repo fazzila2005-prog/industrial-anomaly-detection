@@ -1,0 +1,27 @@
+ANOMALYCLIP EXTERNAL CABLE EVALUATION
+============================================================
+
+Normal test images: 10
+Anomaly test images: 10
+Successfully evaluated: 20
+
+LOCKED THRESHOLD: 0.934600
+
+METRICS
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1 Score: 1.0000
+AUROC: 1.0000
+Average Precision: 1.0000
+
+CONFUSION MATRIX
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL      10        0
+Actual ANOMALY      0       10
+
+IMPORTANT:
+The threshold was calculated exclusively from normal Cable adaptation images.
+No Cable anomaly images were used to select the threshold.
+The held-out Cable test images were evaluated only after the threshold was locked.

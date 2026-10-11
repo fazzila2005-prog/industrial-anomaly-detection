@@ -1,0 +1,62 @@
+[
+    {
+        "variant": "01_original",
+        "image": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\results\\preprocessing_experiment\\01_original.jpg",
+        "PatchCore_raw": 1.0,
+        "PatchCore_normalized": 1.0,
+        "PatchCore_label": "ANOMALY",
+        "PaDiM_raw": 1.0,
+        "PaDiM_normalized": 1.0,
+        "PaDiM_label": "ANOMALY",
+        "score_agreement": 1.0,
+        "prediction_agreement": 1.0
+    },
+    {
+        "variant": "02_square_padded",
+        "image": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\results\\preprocessing_experiment\\02_square_padded.jpg",
+        "PatchCore_raw": 1.0,
+        "PatchCore_normalized": 1.0,
+        "PatchCore_label": "ANOMALY",
+        "PaDiM_raw": 1.0,
+        "PaDiM_normalized": 1.0,
+        "PaDiM_label": "ANOMALY",
+        "score_agreement": 1.0,
+        "prediction_agreement": 1.0
+    },
+    {
+        "variant": "03_center_crop",
+        "image": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\results\\preprocessing_experiment\\03_center_crop.jpg",
+        "PatchCore_raw": 1.0,
+        "PatchCore_normalized": 1.0,
+        "PatchCore_label": "ANOMALY",
+        "PaDiM_raw": 1.0,
+        "PaDiM_normalized": 1.0,
+        "PaDiM_label": "ANOMALY",
+        "score_agreement": 1.0,
+        "prediction_agreement": 1.0
+    },
+    {
+        "variant": "04_object_crop",
+        "image": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\results\\preprocessing_experiment\\04_object_crop.jpg",
+        "PatchCore_raw": 1.0,
+        "PatchCore_normalized": 1.0,
+        "PatchCore_label": "ANOMALY",
+        "PaDiM_raw": 1.0,
+        "PaDiM_normalized": 1.0,
+        "PaDiM_label": "ANOMALY",
+        "score_agreement": 1.0,
+        "prediction_agreement": 1.0
+    },
+    {
+        "variant": "05_object_crop_square",
+        "image": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\results\\preprocessing_experiment\\05_object_crop_square.jpg",
+        "PatchCore_raw": 1.0,
+        "PatchCore_normalized": 1.0,
+        "PatchCore_label": "ANOMALY",
+        "PaDiM_raw": 1.0,
+        "PaDiM_normalized": 1.0,
+        "PaDiM_label": "ANOMALY",
+        "score_agreement": 1.0,
+        "prediction_agreement": 1.0
+    }
+]

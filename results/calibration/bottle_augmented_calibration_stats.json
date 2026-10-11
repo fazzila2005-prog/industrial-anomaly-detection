@@ -1,0 +1,28 @@
+{
+    "category": "bottle",
+    "model_version": "augmented",
+    "calibration_source": "MVTec bottle train/good only",
+    "num_images": 209,
+    "leakage_safe": true,
+    "test_images_used": false,
+    "external_images_used": false,
+    "ground_truth_used": false,
+    "PatchCore": {
+        "count": 209,
+        "min": 0.29155024886131287,
+        "max": 0.5186498165130615,
+        "mean": 0.32257412680598535,
+        "median": 0.3160836696624756,
+        "percentile_1": 0.2928446245193481,
+        "percentile_99": 0.40504054546356194
+    },
+    "PaDiM": {
+        "count": 209,
+        "min": 0.3797193765640259,
+        "max": 0.5853625535964966,
+        "mean": 0.447288494646264,
+        "median": 0.44056740403175354,
+        "percentile_1": 0.38677541851997377,
+        "percentile_99": 0.5588323020935055
+    }
+}

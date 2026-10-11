@@ -1,0 +1,17 @@
+ANOMALYCLIP CABLE NORMAL-ONLY ADAPTATION THRESHOLDS
+============================================================
+
+Number of successful normal images: 11
+
+Minimum normal score: 0.581156
+Maximum normal score: 0.938705
+Mean normal score: 0.779270
+Median normal score: 0.795926
+95th percentile threshold: 0.918391
+99th percentile threshold: 0.934642
+
+IMPORTANT:
+Only external NORMAL Cable adaptation images were used to calculate these thresholds.
+External anomaly images were NOT used.
+The held-out external test images were NOT used.
+These thresholds are intended to be locked before evaluating the held-out external test set.

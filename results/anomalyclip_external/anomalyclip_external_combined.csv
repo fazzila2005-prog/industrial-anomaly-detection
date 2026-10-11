@@ -1,0 +1,18 @@
+Image_Name,True_Label,True_Class,AnomalyCLIP_Score
+empty-beer-bottle-23348207.webp,0,NORMAL,0.6069
+good bottle 3.jpg,0,NORMAL,0.7989
+good bottle 2.jpg,0,NORMAL,0.8437
+a-bottle-of-soda-free-photo.jpg,0,NORMAL,0.883
+images (6).jpg,1,ANOMALY,0.9315
+30ml-clear-flat-shoulder-glass-20260202155049057.webp,0,NORMAL,0.9428
+broken bottle 2 external.jpg,1,ANOMALY,0.9501
+xzdpzqmug5051.jpg,1,ANOMALY,0.9603
+images (2).jpg,1,ANOMALY,0.9641
+images (5).jpg,1,ANOMALY,0.9653
+good bottle external image.jpg,0,NORMAL,0.9681
+images (3).jpg,1,ANOMALY,0.9701
+images.jpg,1,ANOMALY,0.9724
+images (7).jpg,1,ANOMALY,0.9747
+images (1).jpg,1,ANOMALY,0.9778
+images (4).jpg,1,ANOMALY,0.9888
+broken bottle external.webp,1,ANOMALY,0.9897

@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL PILL EVALUATION
+========================================
+
+Category: pill
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.5563
+Maximum score:     0.9574
+Mean score:        0.8352
+Median score:      0.8632
+95th percentile:   0.9572
+99th percentile:   0.9574
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.9574
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           0.6500
+Precision:          1.0000
+Recall:             0.3000
+F1 Score:           0.4615
+False-positive rate:0.0000
+AUROC:              0.8000
+Average Precision:  0.8190
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL      10       0
+Actual ANOMALY      7       3
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the pill category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

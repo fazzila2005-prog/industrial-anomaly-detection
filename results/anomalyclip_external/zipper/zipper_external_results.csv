@@ -1,0 +1,21 @@
+Category,Image_Name,Image_Path,Actual_Label,Anomaly_Score,Locked_Threshold,Predicted_Label,Correct
+zipper,images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (1).jpg,NORMAL,0.9345524311065674,0.9909082877635956,NORMAL,True
+zipper,images (12).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (12).jpg,NORMAL,0.9776991605758667,0.9909082877635956,NORMAL,True
+zipper,images (13).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (13).jpg,NORMAL,0.9470793008804321,0.9909082877635956,NORMAL,True
+zipper,images (14).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (14).jpg,NORMAL,0.9758822917938232,0.9909082877635956,NORMAL,True
+zipper,images (15).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (15).jpg,NORMAL,0.9781599640846252,0.9909082877635956,NORMAL,True
+zipper,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (2).jpg,NORMAL,0.7009479999542236,0.9909082877635956,NORMAL,True
+zipper,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (3).jpg,NORMAL,0.9163593053817749,0.9909082877635956,NORMAL,True
+zipper,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (4).jpg,NORMAL,0.957757294178009,0.9909082877635956,NORMAL,True
+zipper,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images (5).jpg,NORMAL,0.8892055749893188,0.9909082877635956,NORMAL,True
+zipper,images.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_normal\images.jpg,NORMAL,0.863549530506134,0.9909082877635956,NORMAL,True
+zipper,closeup-broken-zipper-jacket_275805-883.avif,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\closeup-broken-zipper-jacket_275805-883.avif,ANOMALY,0.9799832701683044,0.9909082877635956,NORMAL,False
+zipper,images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\images (1).jpg,ANOMALY,0.9475691318511963,0.9909082877635956,NORMAL,False
+zipper,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\images (2).jpg,ANOMALY,0.8617992997169495,0.9909082877635956,NORMAL,False
+zipper,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\images (3).jpg,ANOMALY,0.9934161901473999,0.9909082877635956,ANOMALY,True
+zipper,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\images (4).jpg,ANOMALY,0.9703505635261536,0.9909082877635956,NORMAL,False
+zipper,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\images (5).jpg,ANOMALY,0.9962514042854309,0.9909082877635956,ANOMALY,True
+zipper,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\images (6).jpg,ANOMALY,0.9981732368469238,0.9909082877635956,ANOMALY,True
+zipper,images.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\images.jpg,ANOMALY,0.9935488104820251,0.9909082877635956,ANOMALY,True
+zipper,istockphoto-97641249-612x612.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\istockphoto-97641249-612x612.jpg,ANOMALY,0.9515591859817505,0.9909082877635956,NORMAL,False
+zipper,zipper-repair2.webp,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\zipper\test_anomaly\zipper-repair2.webp,ANOMALY,0.9898443222045898,0.9909082877635956,NORMAL,False

@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL CAPSULE EVALUATION
+========================================
+
+Category: capsule
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.2941
+Maximum score:     0.7909
+Mean score:        0.5748
+Median score:      0.5818
+95th percentile:   0.7768
+99th percentile:   0.7881
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.7881
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           0.8000
+Precision:          0.8750
+Recall:             0.7000
+F1 Score:           0.7778
+False-positive rate:0.1000
+AUROC:              0.9300
+Average Precision:  0.9421
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL       9       1
+Actual ANOMALY      3       7
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the capsule category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

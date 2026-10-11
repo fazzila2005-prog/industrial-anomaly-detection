@@ -1,0 +1,28 @@
+{
+    "category": "bottle",
+    "image_path": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\external images\\broken bottle external.webp",
+    "PatchCore": {
+        "raw_score": 1.0,
+        "normalized_score": 1.0,
+        "prediction": "ANOMALY"
+    },
+    "PaDiM": {
+        "raw_score": 1.0,
+        "normalized_score": 1.0,
+        "prediction": "ANOMALY"
+    },
+    "evidence": {
+        "score_agreement": 1.0,
+        "prediction_agreement": 1.0,
+        "heatmap_overlap_iou": 0.7479027869006287
+    },
+    "consensus": {
+        "score": 0.9369756967251572,
+        "level": "HIGH",
+        "uncertainty": 0.06302430327484276
+    },
+    "heatmaps": {
+        "PatchCore": "results\\external_inference\\heatmaps\\bottle_broken bottle external_patchcore.png",
+        "PaDiM": "results\\external_inference\\heatmaps\\bottle_broken bottle external_padim.png"
+    }
+}

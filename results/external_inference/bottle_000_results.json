@@ -1,0 +1,28 @@
+{
+    "category": "bottle",
+    "image_path": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\data\\bottle\\test\\good\\000.png",
+    "PatchCore": {
+        "raw_score": 0.2372819483280182,
+        "normalized_score": 0.9388195600301267,
+        "prediction": "NORMAL"
+    },
+    "PaDiM": {
+        "raw_score": 0.4249454140663147,
+        "normalized_score": 1.0,
+        "prediction": "NORMAL"
+    },
+    "evidence": {
+        "score_agreement": 0.9388195600301267,
+        "prediction_agreement": 1.0,
+        "heatmap_overlap_iou": 0.08437441887985393
+    },
+    "consensus": {
+        "score": 0.7466214287320141,
+        "level": "MEDIUM",
+        "uncertainty": 0.2533785712679859
+    },
+    "heatmaps": {
+        "PatchCore": "results\\external_inference\\heatmaps\\bottle_000_patchcore.png",
+        "PaDiM": "results\\external_inference\\heatmaps\\bottle_000_padim.png"
+    }
+}

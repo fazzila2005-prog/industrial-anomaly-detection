@@ -1,0 +1,51 @@
+﻿{
+  "experiment": "PatchCore",
+  "dataset": "MVTec AD",
+  "category": "bottle",
+
+  "dataset_split": {
+    "training": "train/good only",
+    "test": "test/",
+    "training_images": 209,
+    "test_images": 83,
+    "exact_train_test_duplicates": 0
+  },
+
+  "model": {
+    "backbone": "wide_resnet50_2",
+    "layers": ["layer2", "layer3"],
+    "pre_trained": true,
+    "coreset_sampling_ratio": 0.01,
+    "num_neighbors": 9
+  },
+
+  "execution": {
+    "accelerator": "cpu",
+    "devices": 1,
+    "train_batch_size": 2,
+    "eval_batch_size": 2,
+    "num_workers": 0,
+    "anomalib_version": "2.6.2"
+  },
+
+  "metrics": {
+    "image_AUROC": 1.0000,
+    "image_F1Score": 0.9920,
+    "pixel_AUROC": 0.9853214622,
+    "pixel_F1Score": 0.7243744731
+  },
+
+  "visual_validation": {
+    "broken_large": "anomaly localized correctly",
+    "broken_small": "anomaly localized correctly",
+    "contamination": "anomaly localized correctly",
+    "good": "no significant anomaly highlighted"
+  },
+
+  "leakage_checks": {
+    "training_uses_test_images": false,
+    "ground_truth_masks_used_for_training": false,
+    "random_train_test_split": false,
+    "exact_duplicate_images": 0
+  }
+}

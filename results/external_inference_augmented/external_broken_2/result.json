@@ -1,0 +1,24 @@
+{
+    "test_name": "external_broken_2",
+    "image_path": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\external images\\broken bottle 2 external.jpg",
+    "models": "augmented",
+    "calibration_file": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\results\\calibration\\bottle_augmented_calibration_stats.json",
+    "calibration_source": "MVTec bottle train/good only",
+    "PatchCore": {
+        "raw_score": 1.0,
+        "normalized_score": 1.0,
+        "label": "ANOMALY"
+    },
+    "PaDiM": {
+        "raw_score": 1.0,
+        "normalized_score": 1.0,
+        "label": "ANOMALY"
+    },
+    "score_agreement": 1.0,
+    "prediction_agreement": 1.0,
+    "heatmap_agreement_iou": 0.4399251716423667,
+    "consensus_score": 0.8599812929105917,
+    "consensus_level": "HIGH",
+    "uncertainty_score": 0.14001870708940833,
+    "interpretation_note": "Consensus and uncertainty represent agreement between model evidence. They are not calibrated probabilities."
+}

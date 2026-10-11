@@ -1,0 +1,6 @@
+variant,image,PatchCore_raw,PatchCore_normalized,PatchCore_label,PaDiM_raw,PaDiM_normalized,PaDiM_label,score_agreement,prediction_agreement
+01_original,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\results\preprocessing_experiment\01_original.jpg,1.0,1.0,ANOMALY,1.0,1.0,ANOMALY,1.0,1.0
+02_square_padded,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\results\preprocessing_experiment\02_square_padded.jpg,1.0,1.0,ANOMALY,1.0,1.0,ANOMALY,1.0,1.0
+03_center_crop,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\results\preprocessing_experiment\03_center_crop.jpg,1.0,1.0,ANOMALY,1.0,1.0,ANOMALY,1.0,1.0
+04_object_crop,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\results\preprocessing_experiment\04_object_crop.jpg,1.0,1.0,ANOMALY,1.0,1.0,ANOMALY,1.0,1.0
+05_object_crop_square,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\results\preprocessing_experiment\05_object_crop_square.jpg,1.0,1.0,ANOMALY,1.0,1.0,ANOMALY,1.0,1.0

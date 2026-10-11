@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL HAZELNUT EVALUATION
+========================================
+
+Category: hazelnut
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.1406
+Maximum score:     0.7767
+Mean score:        0.4455
+Median score:      0.4631
+95th percentile:   0.7080
+99th percentile:   0.7630
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.7630
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           0.6000
+Precision:          1.0000
+Recall:             0.2000
+F1 Score:           0.3333
+False-positive rate:0.0000
+AUROC:              0.6200
+Average Precision:  0.6847
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL      10       0
+Actual ANOMALY      8       2
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the hazelnut category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

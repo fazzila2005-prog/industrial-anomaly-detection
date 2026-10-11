@@ -1,0 +1,21 @@
+Category,Image_Name,Image_Path,Actual_Label,Anomaly_Score,Locked_Threshold,Predicted_Label,Correct
+transistor,images (13).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (13).jpg,NORMAL,0.3843359649181366,0.7800236845016479,NORMAL,True
+transistor,images (14).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (14).jpg,NORMAL,0.32764142751693726,0.7800236845016479,NORMAL,True
+transistor,images (15).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (15).jpg,NORMAL,0.459448903799057,0.7800236845016479,NORMAL,True
+transistor,images (16).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (16).jpg,NORMAL,0.4375598132610321,0.7800236845016479,NORMAL,True
+transistor,images (17).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (17).jpg,NORMAL,0.5700658559799194,0.7800236845016479,NORMAL,True
+transistor,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (2).jpg,NORMAL,0.45395520329475403,0.7800236845016479,NORMAL,True
+transistor,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (3).jpg,NORMAL,0.672152578830719,0.7800236845016479,NORMAL,True
+transistor,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (4).jpg,NORMAL,0.5183195471763611,0.7800236845016479,NORMAL,True
+transistor,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (5).jpg,NORMAL,0.672152578830719,0.7800236845016479,NORMAL,True
+transistor,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_normal\images (6).jpg,NORMAL,0.7569067478179932,0.7800236845016479,NORMAL,True
+transistor,139896646-individual-parts-of-a-damaged-bipolar-transistor-with-one-contact-on-a-light-orange-background.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\139896646-individual-parts-of-a-damaged-bipolar-transistor-with-one-contact-on-a-light-orange-background.jpg,ANOMALY,0.9817367792129517,0.7800236845016479,ANOMALY,True
+transistor,images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images (1).jpg,ANOMALY,0.8380469083786011,0.7800236845016479,ANOMALY,True
+transistor,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images (2).jpg,ANOMALY,0.9843363761901855,0.7800236845016479,ANOMALY,True
+transistor,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images (3).jpg,ANOMALY,0.9836105108261108,0.7800236845016479,ANOMALY,True
+transistor,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images (4).jpg,ANOMALY,0.9669012427330017,0.7800236845016479,ANOMALY,True
+transistor,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images (5).jpg,ANOMALY,0.9455327987670898,0.7800236845016479,ANOMALY,True
+transistor,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images (6).jpg,ANOMALY,0.8994141221046448,0.7800236845016479,ANOMALY,True
+transistor,images (7).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images (7).jpg,ANOMALY,0.9691187739372253,0.7800236845016479,ANOMALY,True
+transistor,images (8).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images (8).jpg,ANOMALY,0.8994141221046448,0.7800236845016479,ANOMALY,True
+transistor,images.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\transistor\test_anomaly\images.jpg,ANOMALY,0.9380840063095093,0.7800236845016479,ANOMALY,True

@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL GRID EVALUATION
+========================================
+
+Category: grid
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.3118
+Maximum score:     0.5540
+Mean score:        0.4413
+Median score:      0.4408
+95th percentile:   0.5497
+99th percentile:   0.5531
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.5531
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           0.8000
+Precision:          0.7143
+Recall:             1.0000
+F1 Score:           0.8333
+False-positive rate:0.4000
+AUROC:              1.0000
+Average Precision:  1.0000
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL       6       4
+Actual ANOMALY      0      10
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the grid category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

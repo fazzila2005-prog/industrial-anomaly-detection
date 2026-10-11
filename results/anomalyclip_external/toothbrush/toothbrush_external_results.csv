@@ -1,0 +1,21 @@
+Category,Image_Name,Image_Path,Actual_Label,Anomaly_Score,Locked_Threshold,Predicted_Label,Correct
+toothbrush,images (10).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (10).jpg,NORMAL,0.744225263595581,0.6962729585170746,ANOMALY,False
+toothbrush,images (11).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (11).jpg,NORMAL,0.5354905128479004,0.6962729585170746,NORMAL,True
+toothbrush,images (12).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (12).jpg,NORMAL,0.625832736492157,0.6962729585170746,NORMAL,True
+toothbrush,images (13).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (13).jpg,NORMAL,0.5116424560546875,0.6962729585170746,NORMAL,True
+toothbrush,images (14).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (14).jpg,NORMAL,0.7353382110595703,0.6962729585170746,ANOMALY,False
+toothbrush,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (2).jpg,NORMAL,0.6110695004463196,0.6962729585170746,NORMAL,True
+toothbrush,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (3).jpg,NORMAL,0.8147780895233154,0.6962729585170746,ANOMALY,False
+toothbrush,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (4).jpg,NORMAL,0.6234963536262512,0.6962729585170746,NORMAL,True
+toothbrush,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (5).jpg,NORMAL,0.824131190776825,0.6962729585170746,ANOMALY,False
+toothbrush,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_normal\images (6).jpg,NORMAL,0.39475446939468384,0.6962729585170746,NORMAL,True
+toothbrush,images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (1).jpg,ANOMALY,0.5119524002075195,0.6962729585170746,NORMAL,False
+toothbrush,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (2).jpg,ANOMALY,0.6835147738456726,0.6962729585170746,NORMAL,False
+toothbrush,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (3).jpg,ANOMALY,0.7718034982681274,0.6962729585170746,ANOMALY,True
+toothbrush,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (4).jpg,ANOMALY,0.630208432674408,0.6962729585170746,NORMAL,False
+toothbrush,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (5).jpg,ANOMALY,0.581853449344635,0.6962729585170746,NORMAL,False
+toothbrush,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (6).jpg,ANOMALY,0.9677048921585083,0.6962729585170746,ANOMALY,True
+toothbrush,images (7).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (7).jpg,ANOMALY,0.9855630397796631,0.6962729585170746,ANOMALY,True
+toothbrush,images (8).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (8).jpg,ANOMALY,0.9655196070671082,0.6962729585170746,ANOMALY,True
+toothbrush,images (9).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images (9).jpg,ANOMALY,0.9412779808044434,0.6962729585170746,ANOMALY,True
+toothbrush,images.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\toothbrush\test_anomaly\images.jpg,ANOMALY,0.5159034132957458,0.6962729585170746,NORMAL,False

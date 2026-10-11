@@ -1,0 +1,24 @@
+{
+    "test_name": "mvtec_normal",
+    "image_path": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\data\\bottle\\test\\good\\000.png",
+    "models": "augmented",
+    "calibration_file": "C:\\Users\\Fazzila\\OneDrive\\Desktop\\industrial-anomaly-project\\results\\calibration\\bottle_augmented_calibration_stats.json",
+    "calibration_source": "MVTec bottle train/good only",
+    "PatchCore": {
+        "raw_score": 0.30479896068573,
+        "normalized_score": 0.10654875922205595,
+        "label": "NORMAL"
+    },
+    "PaDiM": {
+        "raw_score": 0.4475649297237396,
+        "normalized_score": 0.3533105444036844,
+        "label": "NORMAL"
+    },
+    "score_agreement": 0.7532382148183715,
+    "prediction_agreement": 1.0,
+    "heatmap_agreement_iou": 0.0369315469560513,
+    "consensus_score": 0.6605281726663614,
+    "consensus_level": "MEDIUM",
+    "uncertainty_score": 0.33947182733363856,
+    "interpretation_note": "Consensus and uncertainty represent agreement between model evidence. They are not calibrated probabilities."
+}

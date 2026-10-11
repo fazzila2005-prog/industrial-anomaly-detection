@@ -1,0 +1,17 @@
+ANOMALYCLIP NORMAL-ONLY ADAPTATION THRESHOLDS
+============================================================
+
+Number of successful normal images: 8
+
+Minimum normal score: 0.653679
+Maximum normal score: 0.840396
+Mean normal score: 0.766088
+Median normal score: 0.778754
+95th percentile threshold: 0.834173
+99th percentile threshold: 0.839151
+
+IMPORTANT:
+Only external NORMAL adaptation images were used to calculate these thresholds.
+External anomaly images were NOT used.
+The held-out external test images were NOT used.
+These thresholds are intended to be locked before evaluating the held-out external test set.

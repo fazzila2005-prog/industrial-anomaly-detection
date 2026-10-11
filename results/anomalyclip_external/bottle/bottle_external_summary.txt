@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL BOTTLE EVALUATION
+========================================
+
+Category: bottle
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.6537
+Maximum score:     0.8668
+Mean score:        0.7843
+Median score:      0.8060
+95th percentile:   0.8583
+99th percentile:   0.8651
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.8651
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           0.8500
+Precision:          0.7692
+Recall:             1.0000
+F1 Score:           0.8696
+False-positive rate:0.3000
+AUROC:              0.9500
+Average Precision:  0.9497
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL       7       3
+Actual ANOMALY      0      10
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the bottle category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

@@ -1,0 +1,21 @@
+Category,Image_Name,Image_Path,Actual_Label,Anomaly_Score,Locked_Threshold,Predicted_Label,Correct
+wood,images (14).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (14).jpg,NORMAL,0.18691806495189667,0.45973328173160555,NORMAL,True
+wood,images (15).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (15).jpg,NORMAL,0.13944542407989502,0.45973328173160555,NORMAL,True
+wood,images (16).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (16).jpg,NORMAL,0.3417167663574219,0.45973328173160555,NORMAL,True
+wood,images (17).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (17).jpg,NORMAL,0.09246307611465454,0.45973328173160555,NORMAL,True
+wood,images (18).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (18).jpg,NORMAL,0.555833637714386,0.45973328173160555,ANOMALY,False
+wood,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (3).jpg,NORMAL,0.08779046684503555,0.45973328173160555,NORMAL,True
+wood,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (4).jpg,NORMAL,0.11333323270082474,0.45973328173160555,NORMAL,True
+wood,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (5).jpg,NORMAL,0.05725855007767677,0.45973328173160555,NORMAL,True
+wood,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (6).jpg,NORMAL,0.19115957617759705,0.45973328173160555,NORMAL,True
+wood,images (7).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_normal\images (7).jpg,NORMAL,0.1500532627105713,0.45973328173160555,NORMAL,True
+wood,diagonal-view-damaged-light-plywood-260nw-2840564599.webp,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\diagonal-view-damaged-light-plywood-260nw-2840564599.webp,ANOMALY,0.9678560495376587,0.45973328173160555,ANOMALY,True
+wood,images (1).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images (1).jpg,ANOMALY,0.9807037115097046,0.45973328173160555,ANOMALY,True
+wood,images (2).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images (2).jpg,ANOMALY,0.954171895980835,0.45973328173160555,ANOMALY,True
+wood,images (3).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images (3).jpg,ANOMALY,0.6147457361221313,0.45973328173160555,ANOMALY,True
+wood,images (4).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images (4).jpg,ANOMALY,0.5591843724250793,0.45973328173160555,ANOMALY,True
+wood,images (5).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images (5).jpg,ANOMALY,0.975681722164154,0.45973328173160555,ANOMALY,True
+wood,images (6).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images (6).jpg,ANOMALY,0.9921095967292786,0.45973328173160555,ANOMALY,True
+wood,images (7).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images (7).jpg,ANOMALY,0.9721617698669434,0.45973328173160555,ANOMALY,True
+wood,images (8).jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images (8).jpg,ANOMALY,0.9519521594047546,0.45973328173160555,ANOMALY,True
+wood,images.jpg,C:\Users\Fazzila\OneDrive\Desktop\industrial-anomaly-project\external images\wood\test_anomaly\images.jpg,ANOMALY,0.9584947228431702,0.45973328173160555,ANOMALY,True

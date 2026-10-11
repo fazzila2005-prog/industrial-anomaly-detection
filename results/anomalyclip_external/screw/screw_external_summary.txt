@@ -1,0 +1,58 @@
+
+ANOMALYCLIP EXTERNAL SCREW EVALUATION
+========================================
+
+Category: screw
+Device:   cpu
+
+DATASET COUNTS
+--------------
+Normal adaptation images: 10
+Normal test images:       10
+Anomaly test images:      10
+
+ADAPTATION
+----------
+Minimum score:     0.2844
+Maximum score:     0.7567
+Mean score:        0.5527
+Median score:      0.5398
+95th percentile:   0.7388
+99th percentile:   0.7531
+
+LOCKED THRESHOLD (99th percentile)
+----------------
+0.7531
+
+Calculated exclusively from normal adaptation images.
+No anomaly test images were used for threshold calibration.
+
+EXTERNAL TEST RESULTS
+---------------------
+Accuracy:           0.9000
+Precision:          0.9000
+Recall:             0.9000
+F1 Score:           0.9000
+False-positive rate:0.1000
+AUROC:              0.9800
+Average Precision:  0.9833
+
+CONFUSION MATRIX
+----------------
+                 Predicted
+              NORMAL  ANOMALY
+Actual NORMAL       9       1
+Actual ANOMALY      1       9
+
+METHODOLOGY
+-----------
+AnomalyCLIP (pretrained VisA checkpoint) was used without retraining.
+External normal adaptation images were used only to calibrate the threshold.
+Held-out normal and anomaly images were used only for final evaluation.
+
+INTERPRETATION
+--------------
+Small external pilot for the screw category. Not proof of broad
+industrial generalization. AUROC and AP are independent of the threshold.
+Check that normal and anomaly images are the same kind of photo, otherwise
+the model may be separating photo style rather than damage.

@@ -1,0 +1,27 @@
+﻿.env
+.env.*
+!.env.example
+
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+
+**/node_modules/
+**/.next/
+**/.vercel/
+
+results/uploads/
+results/heatmaps/
+
+external images/
+data/
+datasets/
+
+**/checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
